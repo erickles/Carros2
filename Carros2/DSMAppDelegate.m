@@ -7,13 +7,46 @@
 //
 
 #import "DSMAppDelegate.h"
+#import "DSMListaCarrosViewController.h"
+#import "DSMSobreViewController.h"
+#import "DSMMyNavigationController.h"
+#import "DSMMyTabBarController.h"
 
 @implementation DSMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //Tab 1: Cria um NavigationController com o DSMListaCarrosViewController
+    DSMListaCarrosViewController *listaController = [[DSMListaCarrosViewController alloc] init];
+    DSMMyNavigationController *nav1 = [[DSMMyNavigationController alloc]init];
+    [nav1 pushViewController:listaController animated:NO];
+    
+    //Tab 2: Cria um NavigationController com o SobreViewController
+    DSMSobreViewController *sobreController = [[DSMSobreViewController alloc] init];
+    DSMMyNavigationController *nav2 = [[DSMMyNavigationController alloc]init];
+    [nav2 pushViewController:sobreController animated:NO];
+    
+    // Cria a TabBarController (Tab 1 = Lista, Tab 2 = Sobre)
+    DSMMyTabBarController *tabBarController = [[DSMMyTabBarController alloc] init];
+    tabBarController.viewControllers = [NSArray arrayWithObjects:nav1,nav2,nil];
+    
+    //Titulo e imagem de cada tab
+    nav1.tabBarItem.title = @"Carros";
+    nav1.tabBarItem.image = [UIImage imageNamed:@"tab_carros.png"];
+    
+    nav2.tabBarItem.title = @"Sobre";
+    nav2.tabBarItem.image = [UIImage imageNamed:@"tab_sobre.png"];
+    
+    //Deixa a TabBarController como o controller principal
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
     return YES;
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

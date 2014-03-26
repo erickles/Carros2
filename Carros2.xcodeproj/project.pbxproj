@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2410AF47188EFEFA00D79070 /* DSMHttpAsyncHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2410AF46188EFEFA00D79070 /* DSMHttpAsyncHelper.m */; };
+		241410B8186E0D88004926B1 /* DSMPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 241410B7186E0D88004926B1 /* DSMPrefs.m */; };
+		24145185189836C800A5E986 /* DSMHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24145184189836C800A5E986 /* DSMHttpHelper.m */; };
+		241451881898385F00A5E986 /* DSMTransacaoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 241451871898385F00A5E986 /* DSMTransacaoUtil.m */; };
+		24174EDF18772FEC00B0ADB7 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174EC718772FEC00B0ADB7 /* NSObject+SBJson.m */; };
+		24174EE018772FEC00B0ADB7 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174ECA18772FEC00B0ADB7 /* SBJsonParser.m */; };
+		24174EE118772FEC00B0ADB7 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174ECC18772FEC00B0ADB7 /* SBJsonStreamParser.m */; };
+		24174EE218772FEC00B0ADB7 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174ECE18772FEC00B0ADB7 /* SBJsonStreamParserAccumulator.m */; };
+		24174EE318772FEC00B0ADB7 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174ED018772FEC00B0ADB7 /* SBJsonStreamParserAdapter.m */; };
+		24174EE418772FEC00B0ADB7 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174ED218772FEC00B0ADB7 /* SBJsonStreamParserState.m */; };
+		24174EE518772FEC00B0ADB7 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174ED418772FEC00B0ADB7 /* SBJsonStreamWriter.m */; };
+		24174EE618772FEC00B0ADB7 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174ED618772FEC00B0ADB7 /* SBJsonStreamWriterAccumulator.m */; };
+		24174EE718772FEC00B0ADB7 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174ED818772FEC00B0ADB7 /* SBJsonStreamWriterState.m */; };
+		24174EE818772FEC00B0ADB7 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174EDA18772FEC00B0ADB7 /* SBJsonTokeniser.m */; };
+		24174EE918772FEC00B0ADB7 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174EDC18772FEC00B0ADB7 /* SBJsonUTF8Stream.m */; };
+		24174EEA18772FEC00B0ADB7 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24174EDE18772FEC00B0ADB7 /* SBJsonWriter.m */; };
 		24281BD7185F7F9800C02D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24281BD6185F7F9800C02D14 /* Foundation.framework */; };
 		24281BD9185F7F9800C02D14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24281BD8185F7F9800C02D14 /* CoreGraphics.framework */; };
 		24281BDB185F7F9800C02D14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24281BDA185F7F9800C02D14 /* UIKit.framework */; };
@@ -22,6 +38,46 @@
 		24281BFB185F7F9800C02D14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24281BDA185F7F9800C02D14 /* UIKit.framework */; };
 		24281C03185F7F9800C02D14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24281C01185F7F9800C02D14 /* InfoPlist.strings */; };
 		24281C05185F7F9800C02D14 /* Carros2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C04185F7F9800C02D14 /* Carros2Tests.m */; };
+		24281C13185F800400C02D14 /* DSMMyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C10185F800400C02D14 /* DSMMyNavigationController.m */; };
+		24281C14185F800400C02D14 /* DSMMyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C12185F800400C02D14 /* DSMMyTabBarController.m */; };
+		24281C1A185F802900C02D14 /* DSMSobreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C18185F802900C02D14 /* DSMSobreViewController.m */; };
+		24281C1B185F802900C02D14 /* DSMSobreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24281C19185F802900C02D14 /* DSMSobreViewController.xib */; };
+		24281C2B185F803700C02D14 /* DSMListaCarrosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C1D185F803700C02D14 /* DSMListaCarrosViewController.m */; };
+		24281C2C185F803700C02D14 /* DSMListaCarrosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24281C1E185F803700C02D14 /* DSMListaCarrosViewController.xib */; };
+		24281C2D185F803700C02D14 /* DSMCarro.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C21185F803700C02D14 /* DSMCarro.m */; };
+		24281C2E185F803700C02D14 /* DSMCarroService.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C23185F803700C02D14 /* DSMCarroService.m */; };
+		24281C2F185F803700C02D14 /* DSMAlerta.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C24185F803700C02D14 /* DSMAlerta.m */; };
+		24281C30185F803700C02D14 /* DSMCarroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C26185F803700C02D14 /* DSMCarroCell.m */; };
+		24281C31185F803700C02D14 /* DSMCarroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24281C27185F803700C02D14 /* DSMCarroCell.xib */; };
+		24281C32185F803700C02D14 /* DSMDetalhesCarroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24281C29185F803700C02D14 /* DSMDetalhesCarroViewController.m */; };
+		24281C33185F803700C02D14 /* DSMDetalhesCarroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24281C2A185F803700C02D14 /* DSMDetalhesCarroViewController.xib */; };
+		24281C48185F80BB00C02D14 /* appstore_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C36185F80BB00C02D14 /* appstore_1024x1024.png */; };
+		24281C49185F80BB00C02D14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C37185F80BB00C02D14 /* Default-568h@2x.png */; };
+		24281C4A185F80BB00C02D14 /* Default-Landscape@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C38185F80BB00C02D14 /* Default-Landscape@2x~iPad.png */; };
+		24281C4B185F80BB00C02D14 /* Default-Landscape~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C39185F80BB00C02D14 /* Default-Landscape~iPad.png */; };
+		24281C4C185F80BB00C02D14 /* Default-Portrait@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C3A185F80BB00C02D14 /* Default-Portrait@2x~iPad.png */; };
+		24281C4D185F80BB00C02D14 /* Default-Portrait~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C3B185F80BB00C02D14 /* Default-Portrait~iPad.png */; };
+		24281C4E185F80BB00C02D14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C3C185F80BB00C02D14 /* Default.png */; };
+		24281C4F185F80BB00C02D14 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C3D185F80BB00C02D14 /* Default@2x.png */; };
+		24281C50185F80BB00C02D14 /* ferrari_ff.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C3E185F80BB00C02D14 /* ferrari_ff.png */; };
+		24281C51185F80BB00C02D14 /* icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C3F185F80BB00C02D14 /* icon-iPad.png */; };
+		24281C52185F80BB00C02D14 /* icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C40185F80BB00C02D14 /* icon-iPad@2x.png */; };
+		24281C53185F80BB00C02D14 /* icon-iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C41185F80BB00C02D14 /* icon-iPhone.png */; };
+		24281C54185F80BB00C02D14 /* icon-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C42185F80BB00C02D14 /* icon-iPhone@2x.png */; };
+		24281C55185F80BB00C02D14 /* mclaren.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C43185F80BB00C02D14 /* mclaren.png */; };
+		24281C56185F80BB00C02D14 /* tab_carros.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C44185F80BB00C02D14 /* tab_carros.png */; };
+		24281C57185F80BB00C02D14 /* tab_carros@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C45185F80BB00C02D14 /* tab_carros@2x.png */; };
+		24281C58185F80BB00C02D14 /* tab_sobre.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C46185F80BB00C02D14 /* tab_sobre.png */; };
+		24281C59185F80BB00C02D14 /* tab_sobre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24281C47185F80BB00C02D14 /* tab_sobre@2x.png */; };
+		2439C4CE1884004B0056066B /* DSMDownloadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2439C4CD1884004B0056066B /* DSMDownloadImageView.m */; };
+		24AF6EB118855517004157F3 /* Alerta.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF6EB018855517004157F3 /* Alerta.m */; };
+		24FD7D251864413800EBF6FB /* carros_luxo.json in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D221864413800EBF6FB /* carros_luxo.json */; };
+		24FD7D261864413800EBF6FB /* carros_classicos.json in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D231864413800EBF6FB /* carros_classicos.json */; };
+		24FD7D271864413800EBF6FB /* carros_esportivos.json in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D241864413800EBF6FB /* carros_esportivos.json */; };
+		24FD7D2B1864414B00EBF6FB /* carros_luxo.xml in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D281864414B00EBF6FB /* carros_luxo.xml */; };
+		24FD7D2C1864414B00EBF6FB /* carros_classicos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D291864414B00EBF6FB /* carros_classicos.xml */; };
+		24FD7D2D1864414B00EBF6FB /* carros_esportivos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D2A1864414B00EBF6FB /* carros_esportivos.xml */; };
+		24FD7D321864440200EBF6FB /* DSMXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D311864440200EBF6FB /* DSMXMLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +91,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2410AF44188EFE2F00D79070 /* DSMHttpAsyncHelperDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSMHttpAsyncHelperDelegate.h; sourceTree = "<group>"; };
+		2410AF45188EFEFA00D79070 /* DSMHttpAsyncHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMHttpAsyncHelper.h; sourceTree = "<group>"; };
+		2410AF46188EFEFA00D79070 /* DSMHttpAsyncHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMHttpAsyncHelper.m; sourceTree = "<group>"; };
+		241410B6186E0D88004926B1 /* DSMPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMPrefs.h; sourceTree = "<group>"; };
+		241410B7186E0D88004926B1 /* DSMPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMPrefs.m; sourceTree = "<group>"; };
+		24145183189836C800A5E986 /* DSMHttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMHttpHelper.h; sourceTree = "<group>"; };
+		24145184189836C800A5E986 /* DSMHttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMHttpHelper.m; sourceTree = "<group>"; };
+		241451861898385F00A5E986 /* DSMTransacaoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMTransacaoUtil.h; sourceTree = "<group>"; };
+		241451871898385F00A5E986 /* DSMTransacaoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMTransacaoUtil.m; sourceTree = "<group>"; };
+		2414518C1898389900A5E986 /* DSMTransacao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSMTransacao.h; sourceTree = "<group>"; };
+		24174EC618772FEC00B0ADB7 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJson.h"; path = "../../../../Downloads/SBJson_3.1.1/Classes/NSObject+SBJson.h"; sourceTree = "<group>"; };
+		24174EC718772FEC00B0ADB7 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJson.m"; path = "../../../../Downloads/SBJson_3.1.1/Classes/NSObject+SBJson.m"; sourceTree = "<group>"; };
+		24174EC818772FEC00B0ADB7 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJson.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJson.h; sourceTree = "<group>"; };
+		24174EC918772FEC00B0ADB7 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonParser.h; sourceTree = "<group>"; };
+		24174ECA18772FEC00B0ADB7 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonParser.m; sourceTree = "<group>"; };
+		24174ECB18772FEC00B0ADB7 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamParser.h; sourceTree = "<group>"; };
+		24174ECC18772FEC00B0ADB7 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamParser.m; sourceTree = "<group>"; };
+		24174ECD18772FEC00B0ADB7 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAccumulator.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		24174ECE18772FEC00B0ADB7 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		24174ECF18772FEC00B0ADB7 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		24174ED018772FEC00B0ADB7 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		24174ED118772FEC00B0ADB7 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		24174ED218772FEC00B0ADB7 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		24174ED318772FEC00B0ADB7 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		24174ED418772FEC00B0ADB7 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		24174ED518772FEC00B0ADB7 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterAccumulator.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		24174ED618772FEC00B0ADB7 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		24174ED718772FEC00B0ADB7 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		24174ED818772FEC00B0ADB7 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		24174ED918772FEC00B0ADB7 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonTokeniser.h; sourceTree = "<group>"; };
+		24174EDA18772FEC00B0ADB7 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonTokeniser.m; sourceTree = "<group>"; };
+		24174EDB18772FEC00B0ADB7 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonUTF8Stream.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		24174EDC18772FEC00B0ADB7 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		24174EDD18772FEC00B0ADB7 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonWriter.h; sourceTree = "<group>"; };
+		24174EDE18772FEC00B0ADB7 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = ../../../../Downloads/SBJson_3.1.1/Classes/SBJsonWriter.m; sourceTree = "<group>"; };
 		24281BD3185F7F9800C02D14 /* Carros2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carros2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24281BD6185F7F9800C02D14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24281BD8185F7F9800C02D14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +146,58 @@
 		24281C00185F7F9800C02D14 /* Carros2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Carros2Tests-Info.plist"; sourceTree = "<group>"; };
 		24281C02185F7F9800C02D14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24281C04185F7F9800C02D14 /* Carros2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Carros2Tests.m; sourceTree = "<group>"; };
+		24281C0F185F800400C02D14 /* DSMMyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMMyNavigationController.h; path = ../../Carros/Carros/DSMMyNavigationController.h; sourceTree = "<group>"; };
+		24281C10185F800400C02D14 /* DSMMyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMMyNavigationController.m; path = ../../Carros/Carros/DSMMyNavigationController.m; sourceTree = "<group>"; };
+		24281C11185F800400C02D14 /* DSMMyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMMyTabBarController.h; path = ../../Carros/DSMMyTabBarController.h; sourceTree = "<group>"; };
+		24281C12185F800400C02D14 /* DSMMyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMMyTabBarController.m; path = ../../Carros/DSMMyTabBarController.m; sourceTree = "<group>"; };
+		24281C17185F802900C02D14 /* DSMSobreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMSobreViewController.h; path = ../../Carros/Carros/DSMSobreViewController.h; sourceTree = "<group>"; };
+		24281C18185F802900C02D14 /* DSMSobreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMSobreViewController.m; path = ../../Carros/Carros/DSMSobreViewController.m; sourceTree = "<group>"; };
+		24281C19185F802900C02D14 /* DSMSobreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSMSobreViewController.xib; path = ../../Carros/Carros/DSMSobreViewController.xib; sourceTree = "<group>"; };
+		24281C1C185F803700C02D14 /* DSMListaCarrosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMListaCarrosViewController.h; path = ../../Carros/Carros/DSMListaCarrosViewController.h; sourceTree = "<group>"; };
+		24281C1D185F803700C02D14 /* DSMListaCarrosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMListaCarrosViewController.m; path = ../../Carros/Carros/DSMListaCarrosViewController.m; sourceTree = "<group>"; };
+		24281C1E185F803700C02D14 /* DSMListaCarrosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSMListaCarrosViewController.xib; path = ../../Carros/Carros/DSMListaCarrosViewController.xib; sourceTree = "<group>"; };
+		24281C1F185F803700C02D14 /* DSMAlerta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMAlerta.h; path = ../../Carros/Carros/DSMAlerta.h; sourceTree = "<group>"; };
+		24281C20185F803700C02D14 /* DSMCarro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMCarro.h; path = ../../Carros/Carros/DSMCarro.h; sourceTree = "<group>"; };
+		24281C21185F803700C02D14 /* DSMCarro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMCarro.m; path = ../../Carros/Carros/DSMCarro.m; sourceTree = "<group>"; };
+		24281C22185F803700C02D14 /* DSMCarroService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMCarroService.h; path = ../../Carros/Carros/DSMCarroService.h; sourceTree = "<group>"; };
+		24281C23185F803700C02D14 /* DSMCarroService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMCarroService.m; path = ../../Carros/Carros/DSMCarroService.m; sourceTree = "<group>"; };
+		24281C24185F803700C02D14 /* DSMAlerta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMAlerta.m; path = ../../Carros/Carros/DSMAlerta.m; sourceTree = "<group>"; };
+		24281C25185F803700C02D14 /* DSMCarroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMCarroCell.h; path = ../../Carros/Carros/DSMCarroCell.h; sourceTree = "<group>"; };
+		24281C26185F803700C02D14 /* DSMCarroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMCarroCell.m; path = ../../Carros/Carros/DSMCarroCell.m; sourceTree = "<group>"; };
+		24281C27185F803700C02D14 /* DSMCarroCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSMCarroCell.xib; path = ../../Carros/Carros/DSMCarroCell.xib; sourceTree = "<group>"; };
+		24281C28185F803700C02D14 /* DSMDetalhesCarroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMDetalhesCarroViewController.h; path = ../../Carros/Carros/DSMDetalhesCarroViewController.h; sourceTree = "<group>"; };
+		24281C29185F803700C02D14 /* DSMDetalhesCarroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMDetalhesCarroViewController.m; path = ../../Carros/Carros/DSMDetalhesCarroViewController.m; sourceTree = "<group>"; };
+		24281C2A185F803700C02D14 /* DSMDetalhesCarroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DSMDetalhesCarroViewController.xib; path = ../../Carros/Carros/DSMDetalhesCarroViewController.xib; sourceTree = "<group>"; };
+		24281C36185F80BB00C02D14 /* appstore_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appstore_1024x1024.png; path = ../../Carros/appstore_1024x1024.png; sourceTree = "<group>"; };
+		24281C37185F80BB00C02D14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Carros/Default-568h@2x.png"; sourceTree = "<group>"; };
+		24281C38185F80BB00C02D14 /* Default-Landscape@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~iPad.png"; path = "../../Carros/Default-Landscape@2x~iPad.png"; sourceTree = "<group>"; };
+		24281C39185F80BB00C02D14 /* Default-Landscape~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~iPad.png"; path = "../../Carros/Default-Landscape~iPad.png"; sourceTree = "<group>"; };
+		24281C3A185F80BB00C02D14 /* Default-Portrait@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~iPad.png"; path = "../../Carros/Default-Portrait@2x~iPad.png"; sourceTree = "<group>"; };
+		24281C3B185F80BB00C02D14 /* Default-Portrait~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~iPad.png"; path = "../../Carros/Default-Portrait~iPad.png"; sourceTree = "<group>"; };
+		24281C3C185F80BB00C02D14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Carros/Default.png; sourceTree = "<group>"; };
+		24281C3D185F80BB00C02D14 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../Carros/Default@2x.png"; sourceTree = "<group>"; };
+		24281C3E185F80BB00C02D14 /* ferrari_ff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ferrari_ff.png; path = ../../Carros/ferrari_ff.png; sourceTree = "<group>"; };
+		24281C3F185F80BB00C02D14 /* icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-iPad.png"; path = "../../Carros/icon-iPad.png"; sourceTree = "<group>"; };
+		24281C40185F80BB00C02D14 /* icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-iPad@2x.png"; path = "../../Carros/icon-iPad@2x.png"; sourceTree = "<group>"; };
+		24281C41185F80BB00C02D14 /* icon-iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-iPhone.png"; path = "../../Carros/icon-iPhone.png"; sourceTree = "<group>"; };
+		24281C42185F80BB00C02D14 /* icon-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-iPhone@2x.png"; path = "../../Carros/icon-iPhone@2x.png"; sourceTree = "<group>"; };
+		24281C43185F80BB00C02D14 /* mclaren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mclaren.png; path = ../../Carros/mclaren.png; sourceTree = "<group>"; };
+		24281C44185F80BB00C02D14 /* tab_carros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_carros.png; path = ../../Carros/tab_carros.png; sourceTree = "<group>"; };
+		24281C45185F80BB00C02D14 /* tab_carros@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_carros@2x.png"; path = "../../Carros/tab_carros@2x.png"; sourceTree = "<group>"; };
+		24281C46185F80BB00C02D14 /* tab_sobre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_sobre.png; path = ../../Carros/tab_sobre.png; sourceTree = "<group>"; };
+		24281C47185F80BB00C02D14 /* tab_sobre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_sobre@2x.png"; path = "../../Carros/tab_sobre@2x.png"; sourceTree = "<group>"; };
+		2439C4CC1884004B0056066B /* DSMDownloadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMDownloadImageView.h; sourceTree = "<group>"; };
+		2439C4CD1884004B0056066B /* DSMDownloadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMDownloadImageView.m; sourceTree = "<group>"; };
+		24AF6EAF18855517004157F3 /* Alerta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alerta.h; sourceTree = "<group>"; };
+		24AF6EB018855517004157F3 /* Alerta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alerta.m; sourceTree = "<group>"; };
+		24FD7D221864413800EBF6FB /* carros_luxo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = carros_luxo.json; path = ../../../../Downloads/carros_luxo.json; sourceTree = "<group>"; };
+		24FD7D231864413800EBF6FB /* carros_classicos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = carros_classicos.json; path = ../../../../Downloads/carros_classicos.json; sourceTree = "<group>"; };
+		24FD7D241864413800EBF6FB /* carros_esportivos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = carros_esportivos.json; path = ../../../../Downloads/carros_esportivos.json; sourceTree = "<group>"; };
+		24FD7D281864414B00EBF6FB /* carros_luxo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = carros_luxo.xml; path = ../../../../Downloads/carros_luxo.xml; sourceTree = "<group>"; };
+		24FD7D291864414B00EBF6FB /* carros_classicos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = carros_classicos.xml; path = ../../../../Downloads/carros_classicos.xml; sourceTree = "<group>"; };
+		24FD7D2A1864414B00EBF6FB /* carros_esportivos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = carros_esportivos.xml; path = ../../../../Downloads/carros_esportivos.xml; sourceTree = "<group>"; };
+		24FD7D301864440200EBF6FB /* DSMXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMXMLParser.h; sourceTree = "<group>"; };
+		24FD7D311864440200EBF6FB /* DSMXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMXMLParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +224,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		241410B5186E0D66004926B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				24AF6EAF18855517004157F3 /* Alerta.h */,
+				24AF6EB018855517004157F3 /* Alerta.m */,
+				241410B6186E0D88004926B1 /* DSMPrefs.h */,
+				241410B7186E0D88004926B1 /* DSMPrefs.m */,
+				2439C4CC1884004B0056066B /* DSMDownloadImageView.h */,
+				2439C4CD1884004B0056066B /* DSMDownloadImageView.m */,
+				2410AF44188EFE2F00D79070 /* DSMHttpAsyncHelperDelegate.h */,
+				2410AF45188EFEFA00D79070 /* DSMHttpAsyncHelper.h */,
+				2410AF46188EFEFA00D79070 /* DSMHttpAsyncHelper.m */,
+				24145183189836C800A5E986 /* DSMHttpHelper.h */,
+				24145184189836C800A5E986 /* DSMHttpHelper.m */,
+				241451861898385F00A5E986 /* DSMTransacaoUtil.h */,
+				241451871898385F00A5E986 /* DSMTransacaoUtil.m */,
+				2414518C1898389900A5E986 /* DSMTransacao.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		24174EC018771FDF00B0ADB7 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				24174EC518772FD100B0ADB7 /* JSON-Framework */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		24174EC518772FD100B0ADB7 /* JSON-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				24174EC618772FEC00B0ADB7 /* NSObject+SBJson.h */,
+				24174EC718772FEC00B0ADB7 /* NSObject+SBJson.m */,
+				24174EC818772FEC00B0ADB7 /* SBJson.h */,
+				24174EC918772FEC00B0ADB7 /* SBJsonParser.h */,
+				24174ECA18772FEC00B0ADB7 /* SBJsonParser.m */,
+				24174ECB18772FEC00B0ADB7 /* SBJsonStreamParser.h */,
+				24174ECC18772FEC00B0ADB7 /* SBJsonStreamParser.m */,
+				24174ECD18772FEC00B0ADB7 /* SBJsonStreamParserAccumulator.h */,
+				24174ECE18772FEC00B0ADB7 /* SBJsonStreamParserAccumulator.m */,
+				24174ECF18772FEC00B0ADB7 /* SBJsonStreamParserAdapter.h */,
+				24174ED018772FEC00B0ADB7 /* SBJsonStreamParserAdapter.m */,
+				24174ED118772FEC00B0ADB7 /* SBJsonStreamParserState.h */,
+				24174ED218772FEC00B0ADB7 /* SBJsonStreamParserState.m */,
+				24174ED318772FEC00B0ADB7 /* SBJsonStreamWriter.h */,
+				24174ED418772FEC00B0ADB7 /* SBJsonStreamWriter.m */,
+				24174ED518772FEC00B0ADB7 /* SBJsonStreamWriterAccumulator.h */,
+				24174ED618772FEC00B0ADB7 /* SBJsonStreamWriterAccumulator.m */,
+				24174ED718772FEC00B0ADB7 /* SBJsonStreamWriterState.h */,
+				24174ED818772FEC00B0ADB7 /* SBJsonStreamWriterState.m */,
+				24174ED918772FEC00B0ADB7 /* SBJsonTokeniser.h */,
+				24174EDA18772FEC00B0ADB7 /* SBJsonTokeniser.m */,
+				24174EDB18772FEC00B0ADB7 /* SBJsonUTF8Stream.h */,
+				24174EDC18772FEC00B0ADB7 /* SBJsonUTF8Stream.m */,
+				24174EDD18772FEC00B0ADB7 /* SBJsonWriter.h */,
+				24174EDE18772FEC00B0ADB7 /* SBJsonWriter.m */,
+			);
+			name = "JSON-Framework";
+			sourceTree = "<group>";
+		};
 		24281BCA185F7F9800C02D14 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +318,8 @@
 		24281BDC185F7F9800C02D14 /* Carros2 */ = {
 			isa = PBXGroup;
 			children = (
+				24281C0E185F7FF600C02D14 /* Classes */,
+				24174EC018771FDF00B0ADB7 /* Libs */,
 				24281BE5185F7F9800C02D14 /* DSMAppDelegate.h */,
 				24281BE6185F7F9800C02D14 /* DSMAppDelegate.m */,
 				24281BE8185F7F9800C02D14 /* Main_iPhone.storyboard */,
@@ -153,6 +359,126 @@
 				24281C01185F7F9800C02D14 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24281C0E185F7FF600C02D14 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				241410B5186E0D66004926B1 /* Utils */,
+				24FD7D2E186443C600EBF6FB /* Domain */,
+				24281C34185F80A400C02D14 /* Resources */,
+				24281C16185F801C00C02D14 /* ListaCarros */,
+				24281C15185F801200C02D14 /* Sobre */,
+				24281C0F185F800400C02D14 /* DSMMyNavigationController.h */,
+				24281C10185F800400C02D14 /* DSMMyNavigationController.m */,
+				24281C11185F800400C02D14 /* DSMMyTabBarController.h */,
+				24281C12185F800400C02D14 /* DSMMyTabBarController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		24281C15185F801200C02D14 /* Sobre */ = {
+			isa = PBXGroup;
+			children = (
+				24281C17185F802900C02D14 /* DSMSobreViewController.h */,
+				24281C18185F802900C02D14 /* DSMSobreViewController.m */,
+				24281C19185F802900C02D14 /* DSMSobreViewController.xib */,
+			);
+			name = Sobre;
+			sourceTree = "<group>";
+		};
+		24281C16185F801C00C02D14 /* ListaCarros */ = {
+			isa = PBXGroup;
+			children = (
+				24281C1C185F803700C02D14 /* DSMListaCarrosViewController.h */,
+				24281C1D185F803700C02D14 /* DSMListaCarrosViewController.m */,
+				24281C1E185F803700C02D14 /* DSMListaCarrosViewController.xib */,
+				24281C1F185F803700C02D14 /* DSMAlerta.h */,
+				24281C20185F803700C02D14 /* DSMCarro.h */,
+				24281C21185F803700C02D14 /* DSMCarro.m */,
+				24281C22185F803700C02D14 /* DSMCarroService.h */,
+				24281C23185F803700C02D14 /* DSMCarroService.m */,
+				24281C24185F803700C02D14 /* DSMAlerta.m */,
+				24281C25185F803700C02D14 /* DSMCarroCell.h */,
+				24281C26185F803700C02D14 /* DSMCarroCell.m */,
+				24281C27185F803700C02D14 /* DSMCarroCell.xib */,
+				24281C28185F803700C02D14 /* DSMDetalhesCarroViewController.h */,
+				24281C29185F803700C02D14 /* DSMDetalhesCarroViewController.m */,
+				24281C2A185F803700C02D14 /* DSMDetalhesCarroViewController.xib */,
+			);
+			name = ListaCarros;
+			sourceTree = "<group>";
+		};
+		24281C34185F80A400C02D14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24FD7D21186440A500EBF6FB /* json */,
+				24FD7D201864409C00EBF6FB /* xml */,
+				24281C35185F80AE00C02D14 /* Imgs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		24281C35185F80AE00C02D14 /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				24281C36185F80BB00C02D14 /* appstore_1024x1024.png */,
+				24281C37185F80BB00C02D14 /* Default-568h@2x.png */,
+				24281C38185F80BB00C02D14 /* Default-Landscape@2x~iPad.png */,
+				24281C39185F80BB00C02D14 /* Default-Landscape~iPad.png */,
+				24281C3A185F80BB00C02D14 /* Default-Portrait@2x~iPad.png */,
+				24281C3B185F80BB00C02D14 /* Default-Portrait~iPad.png */,
+				24281C3C185F80BB00C02D14 /* Default.png */,
+				24281C3D185F80BB00C02D14 /* Default@2x.png */,
+				24281C3E185F80BB00C02D14 /* ferrari_ff.png */,
+				24281C3F185F80BB00C02D14 /* icon-iPad.png */,
+				24281C40185F80BB00C02D14 /* icon-iPad@2x.png */,
+				24281C41185F80BB00C02D14 /* icon-iPhone.png */,
+				24281C42185F80BB00C02D14 /* icon-iPhone@2x.png */,
+				24281C43185F80BB00C02D14 /* mclaren.png */,
+				24281C44185F80BB00C02D14 /* tab_carros.png */,
+				24281C45185F80BB00C02D14 /* tab_carros@2x.png */,
+				24281C46185F80BB00C02D14 /* tab_sobre.png */,
+				24281C47185F80BB00C02D14 /* tab_sobre@2x.png */,
+			);
+			name = Imgs;
+			sourceTree = "<group>";
+		};
+		24FD7D201864409C00EBF6FB /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				24FD7D281864414B00EBF6FB /* carros_luxo.xml */,
+				24FD7D291864414B00EBF6FB /* carros_classicos.xml */,
+				24FD7D2A1864414B00EBF6FB /* carros_esportivos.xml */,
+			);
+			name = xml;
+			sourceTree = "<group>";
+		};
+		24FD7D21186440A500EBF6FB /* json */ = {
+			isa = PBXGroup;
+			children = (
+				24FD7D221864413800EBF6FB /* carros_luxo.json */,
+				24FD7D231864413800EBF6FB /* carros_classicos.json */,
+				24FD7D241864413800EBF6FB /* carros_esportivos.json */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		24FD7D2E186443C600EBF6FB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				24FD7D2F186443CF00EBF6FB /* XML-SAX */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		24FD7D2F186443CF00EBF6FB /* XML-SAX */ = {
+			isa = PBXGroup;
+			children = (
+				24FD7D301864440200EBF6FB /* DSMXMLParser.h */,
+				24FD7D311864440200EBF6FB /* DSMXMLParser.m */,
+			);
+			name = "XML-SAX";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +558,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24281C4F185F80BB00C02D14 /* Default@2x.png in Resources */,
 				24281BED185F7F9800C02D14 /* Main_iPad.storyboard in Resources */,
+				24FD7D2C1864414B00EBF6FB /* carros_classicos.xml in Resources */,
+				24FD7D251864413800EBF6FB /* carros_luxo.json in Resources */,
+				24281C58185F80BB00C02D14 /* tab_sobre.png in Resources */,
 				24281BF2185F7F9800C02D14 /* Images.xcassets in Resources */,
+				24281C53185F80BB00C02D14 /* icon-iPhone.png in Resources */,
+				24281C31185F803700C02D14 /* DSMCarroCell.xib in Resources */,
+				24281C4D185F80BB00C02D14 /* Default-Portrait~iPad.png in Resources */,
+				24FD7D271864413800EBF6FB /* carros_esportivos.json in Resources */,
+				24FD7D2B1864414B00EBF6FB /* carros_luxo.xml in Resources */,
+				24281C52185F80BB00C02D14 /* icon-iPad@2x.png in Resources */,
+				24281C4E185F80BB00C02D14 /* Default.png in Resources */,
+				24281C4C185F80BB00C02D14 /* Default-Portrait@2x~iPad.png in Resources */,
+				24281C4A185F80BB00C02D14 /* Default-Landscape@2x~iPad.png in Resources */,
+				24281C50185F80BB00C02D14 /* ferrari_ff.png in Resources */,
+				24281C49185F80BB00C02D14 /* Default-568h@2x.png in Resources */,
+				24281C48185F80BB00C02D14 /* appstore_1024x1024.png in Resources */,
+				24281C4B185F80BB00C02D14 /* Default-Landscape~iPad.png in Resources */,
+				24281C57185F80BB00C02D14 /* tab_carros@2x.png in Resources */,
+				24281C55185F80BB00C02D14 /* mclaren.png in Resources */,
+				24281C54185F80BB00C02D14 /* icon-iPhone@2x.png in Resources */,
+				24281C59185F80BB00C02D14 /* tab_sobre@2x.png in Resources */,
+				24281C33185F803700C02D14 /* DSMDetalhesCarroViewController.xib in Resources */,
+				24281C2C185F803700C02D14 /* DSMListaCarrosViewController.xib in Resources */,
+				24281C51185F80BB00C02D14 /* icon-iPad.png in Resources */,
+				24281C1B185F802900C02D14 /* DSMSobreViewController.xib in Resources */,
+				24FD7D2D1864414B00EBF6FB /* carros_esportivos.xml in Resources */,
 				24281BEA185F7F9800C02D14 /* Main_iPhone.storyboard in Resources */,
+				24281C56185F80BB00C02D14 /* tab_carros.png in Resources */,
+				24FD7D261864413800EBF6FB /* carros_classicos.json in Resources */,
 				24281BE1185F7F9800C02D14 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +608,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24281C2D185F803700C02D14 /* DSMCarro.m in Sources */,
+				24174EEA18772FEC00B0ADB7 /* SBJsonWriter.m in Sources */,
+				24281C2F185F803700C02D14 /* DSMAlerta.m in Sources */,
+				24174EE218772FEC00B0ADB7 /* SBJsonStreamParserAccumulator.m in Sources */,
+				24281C13185F800400C02D14 /* DSMMyNavigationController.m in Sources */,
+				24174EE518772FEC00B0ADB7 /* SBJsonStreamWriter.m in Sources */,
 				24281BE3185F7F9800C02D14 /* main.m in Sources */,
+				24174EE318772FEC00B0ADB7 /* SBJsonStreamParserAdapter.m in Sources */,
 				24281BF0185F7F9800C02D14 /* DSMViewController.m in Sources */,
+				24174EE618772FEC00B0ADB7 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				24174EE018772FEC00B0ADB7 /* SBJsonParser.m in Sources */,
+				24281C2E185F803700C02D14 /* DSMCarroService.m in Sources */,
+				24AF6EB118855517004157F3 /* Alerta.m in Sources */,
+				24174EE718772FEC00B0ADB7 /* SBJsonStreamWriterState.m in Sources */,
+				24145185189836C800A5E986 /* DSMHttpHelper.m in Sources */,
+				24FD7D321864440200EBF6FB /* DSMXMLParser.m in Sources */,
+				24174EE118772FEC00B0ADB7 /* SBJsonStreamParser.m in Sources */,
+				241410B8186E0D88004926B1 /* DSMPrefs.m in Sources */,
+				24281C32185F803700C02D14 /* DSMDetalhesCarroViewController.m in Sources */,
+				24174EE418772FEC00B0ADB7 /* SBJsonStreamParserState.m in Sources */,
 				24281BE7185F7F9800C02D14 /* DSMAppDelegate.m in Sources */,
+				2439C4CE1884004B0056066B /* DSMDownloadImageView.m in Sources */,
+				24281C14185F800400C02D14 /* DSMMyTabBarController.m in Sources */,
+				24281C1A185F802900C02D14 /* DSMSobreViewController.m in Sources */,
+				24281C30185F803700C02D14 /* DSMCarroCell.m in Sources */,
+				24174EDF18772FEC00B0ADB7 /* NSObject+SBJson.m in Sources */,
+				24281C2B185F803700C02D14 /* DSMListaCarrosViewController.m in Sources */,
+				24174EE918772FEC00B0ADB7 /* SBJsonUTF8Stream.m in Sources */,
+				24174EE818772FEC00B0ADB7 /* SBJsonTokeniser.m in Sources */,
+				241451881898385F00A5E986 /* DSMTransacaoUtil.m in Sources */,
+				2410AF47188EFEFA00D79070 /* DSMHttpAsyncHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +857,7 @@
 				24281C0A185F7F9800C02D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24281C0B185F7F9800C02D14 /* Build configuration list for PBXNativeTarget "Carros2Tests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +866,7 @@
 				24281C0D185F7F9800C02D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

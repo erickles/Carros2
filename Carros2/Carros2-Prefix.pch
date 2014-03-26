@@ -14,3 +14,5 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define URL_CARROS @"http://www.livroiphone.com.br/carros/carros_%@.json"
